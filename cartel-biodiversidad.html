@@ -6,18 +6,17 @@
     <title>Biodiversidad</title>
     <style>
         body {
-            bottom: 0;
-            width: 700px;
+            margin: 0;
             text-align: center;
             align-content: center;
         }
 
-        #inicio {
+        #titulo {
             background-color: rgb(118, 255, 76);
-            border-radius: 15px;
+            border-radius: 25px;
             width: 80%;
             display: inline-block;
-            margin-top: 2%;
+            margin-top: 4%;
             margin-bottom: 4%;
             box-shadow: 0 0 10px;
         }
@@ -26,52 +25,54 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-        #first {
+        #intro {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        #bio {
-            width: 100%;
-            border-radius: 15px;
         }
 
         .info1 {
             background-color: rgb(255, 173, 125);
-            padding: 2px 5px 2px 5px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif
+            padding: 1% 1%;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            transition: background-color 0.5s;
+        }
+  
+        .info1:hover {
+            background-color: green;
         }
 
         .info2 {
             background-color: rgb(255, 125, 125);
-            padding: 2px 5px 2px 5px;
+            padding: 1% 2%;
             font-family:Verdana, Geneva, Tahoma, sans-serif;  
         }
 
         .info3 {
             background-color: rgb(184, 142, 54);
-            padding: 2px 5px 2px 5px;
+            padding: 1% 2%;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .info4 {
             background-color: rgb(252, 136, 28);
-            padding: 2px 5px 2px 5px;
+            padding: 1% 2%;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .info5 {
             background-color: rgb(160, 250, 41);
-            padding: 2px 5px 2px 5px;
+            padding: 1% 2%;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 5%;
         }
     </style>
 </head>
 <body align="center">
-    <div id="inicio" align="center">
+    <div id="titulo" align="center">
         <h1>La Biodiversidad en Peligro</h1>
-        <p id="first">Descubre su importancia y cómo podemos protegerla.</p>
+        <p id="intro">Descubre su importancia y cómo podemos protegerla.</p>
     </div>
-    <img id="bio" src="https://statics-diariomedico.uecdn.es/cms/2023-01/01_2.jpg" alt="Imagen de biodiversidad">
+    <img src="https://statics-diariomedico.uecdn.es/cms/2023-01/01_2.jpg" width="100%" alt="Imagen de biodiversidad">
+  
     <div class="info1">
         <h2>¿Qué es la biodiversidad?</h2>
         <p>La biodiversidad se refiere a la variedad de seres vivos que habitan nuestro planeta. 
@@ -83,17 +84,20 @@
         <p>La biodiversidad es fundamental para nuestra existencia y bienestar. 
             Garantiza riqueza genética, interdependencia de las especies y servicios ecosistémicos esenciales.</p>
     </div>
+  
     <div class="info3">
         <h2>Causas de la pérdida de biodiversidad</h2>
         <p>La actividad humana es la principal causa de la pérdida de biodiversidad. 
             Sobre-explotación, pérdida de hábitats, contaminación, especies invasoras y cambio climático amenazan a las especies.</p>
-    </div>
+    </div> 
+  
     <div class="info4">
         <h2>Impacto social, económico y ambiental</h2>
         <p>La pérdida de biodiversidad afecta la seguridad alimentaria, la salud pública y la economía. 
             En México, la deforestación y la expansión agrícola amenazan la supervivencia de muchas especies.</p>
     </div>
-    <div class="info5">
+  
+    <div class="info5" id="ultimo">
         <h2>Servicios ambientales afectados</h2>
         <p>En mi región, la pérdida de biodiversidad ha impactado en la calidad del agua, la polinización de cultivos y la regulación del clima. 
             Por ejemplo, la disminución de abejas ha afectado la producción de alimentos y la economía local.</p>
