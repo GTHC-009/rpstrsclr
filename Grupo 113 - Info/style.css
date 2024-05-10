@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.tarjeta-alumno {
+  margin: 1%;
+  padding: 1%;
+  background-color: green;
+  border-radius: 20px;
+  max-height: 5%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#info-completa {
+  margin: 2%;
+  width: 94%;
+  padding: 2%;
+  background-color: rgb(64, 118, 236);
+  border-radius: 25px;
+  box-shadow: 0 0 25px;
+  justify-content: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 130%;
+}
+
+img {
+  float: right;
+  width: 10%;
+  height: 10%;
+  vertical-align: middle;
+}
