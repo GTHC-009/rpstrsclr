@@ -3,11 +3,11 @@ body {
 }
 
 .tarjeta-alumno {
-  margin: 3%;
-  padding: 1%;
+  margin: 4%;
+  padding: 2%;
   background-color: green;
   border-radius: 20px;
-  max-height: 5%;
+  max-height: 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
