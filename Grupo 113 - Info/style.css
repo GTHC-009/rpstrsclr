@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: auto 25%;
+}
+
 .tarjeta-alumno {
   margin: 2%;
   padding: 2%;
